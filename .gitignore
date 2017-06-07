@@ -1,0 +1,56 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/web/node_modules
+
+# testing
+/web/coverage
+
+# production
+/web/build
+
+# misc
+/web/.DS_Store
+/web/.env.local
+/web/.env.development.local
+/web/.env.test.local
+/web/.env.production.local
+
+/web/npm-debug.log*
+/web/yarn-debug.log*
+/web/yarn-error.log*
+
+/java/target/
+/java/!.mvn/wrapper/maven-wrapper.jar
+/java/.gitignore
+
+### STS ###
+/java/.apt_generated
+/java/.classpath
+/java/.factorypath
+/java/.project
+/java/.settings
+/java/.springBeans
+
+### IntelliJ IDEA ###
+/java/.idea
+/java/*.iws
+/java/*.iml
+/java/*.ipr
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
