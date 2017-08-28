@@ -18,9 +18,6 @@ class ProductThumbnail extends Component {
       this.setState({productImg: img});
    }
 
-   /*componentWillReceiveProps(){
-      this.setState({productImg: this.props.productImg});
-   }*/
 
    handleArticleThumbnail(){
     var that = this;
