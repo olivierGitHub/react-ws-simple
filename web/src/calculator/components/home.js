@@ -40,8 +40,8 @@ class Home extends Component {
       <div>
       {
         data.map(function(product){
-        return (<div>
-              <ProductThumbnail key={product.productThumbnail} productImg={product.productThumbnail} articleThumbnails={product.articleThumbnails} />
+        return (<div key={product.productThumbnail}>
+              <ProductThumbnail productImg={product.productThumbnail} articleThumbnails={product.articleThumbnails} />
               <br />
             </div>)
         })
